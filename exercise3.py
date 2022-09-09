@@ -5,7 +5,7 @@
 marks = int(input("What is the student marks? "))
 
 # condition here
-if marks <= 40 :
+if marks < 40 :
     print('FAIL')
 else:
     print('PASS')
