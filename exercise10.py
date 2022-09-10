@@ -2,7 +2,7 @@
 
 # this program requires nexted loop you can use while or for loop
 output = ""
-for i in range(1, 3):
+for i in range(1, 21):
     name = input("Enter student name: ")
     stu_sum = 0
     for j in range(1,11):
