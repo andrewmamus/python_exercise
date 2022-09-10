@@ -5,5 +5,14 @@
 registNum = int(input("Please type your registration number "))
 # GPA should be float because most of GPA are decimal
 gpa = float(input("Enter your GPA: "))
-
-print(registNum, " your GPA is ", gpa)
+if gpa >= 3.5:
+    grade = "Distinction"
+elif gpa >= 3.0:
+    grade = "Upper Credit"
+elif gpa >= 2.5:
+    grade = "Lower Credit"
+elif gpa >= 2.0:
+    grade = "Pass"
+else:
+    grade = "Fail"
+print(registNum, " your GPA is ", gpa, "and your grade is ", grade)
