@@ -31,4 +31,4 @@
 
 9.  Write a program that reads the rate of pay per hour of an employee and reads the hours worked using while-loop statement. Calculates the gross wage and display the output on the screen.
 
-10. Write a program that reads the rate of pay per hour of an employee and reads the hours worked using while-loop statement. Calculates the gross wage and display the output on the screen.
+10. Write a program that reads the score of 10 subjects of 20 students. Calculte the sum of scores, and display the names and average.
