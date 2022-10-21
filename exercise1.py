@@ -6,6 +6,7 @@ import math
 
 # variables and we need to request for the radius for the user
 pi = math.pi
+# user input the radius of the circle
 r = int(input("Please Enter the radius: "))
 
 Area = pi*(r**2)
